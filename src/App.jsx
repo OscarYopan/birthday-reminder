@@ -1,10 +1,14 @@
+import { useState } from 'react'
 import './App.css'
+import { data } from './data'
 
 function App() {
-
-  return (
+  const [peaple, setPeaple] = useState(data)
+  console.log(peaple);
+  console.log(setPeaple);
+  return (    
     <div>
-      <h1>Hi...</h1>
+      <h1>Hi...</h1>      
     </div>
   )
 }
