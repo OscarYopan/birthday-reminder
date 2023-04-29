@@ -1,7 +1,7 @@
 import React from 'react'
 import { Person } from './Person'
 
-export const List = (people) => {
+export const List = ({people}) => {
   return (
     <section>
       {people.map((person) => {
